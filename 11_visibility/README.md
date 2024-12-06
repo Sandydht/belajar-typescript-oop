@@ -10,13 +10,10 @@
 |                                  | jika tidak menyebutkan visibility      |
 |                                  | maka akan menggunakan visibility       | 
 |                                  | public                                 |
-| -------------------------------- | -------------------------------------- |
 | private                          | Hanya bisa diakses oleh class nya      | 
 |                                  | sendiri                                |
-| -------------------------------- | -------------------------------------- |
 | protected                        | Sama seperti private, tapi bisa juga   |
 |                                  | diakses oleh class turunannya          |
-| -------------------------------- | -------------------------------------- |
 
 * Kode: Counter
   ```TSX

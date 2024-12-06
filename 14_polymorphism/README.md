@@ -14,7 +14,7 @@
 
   }
 
-  class VicePrecident extends Manager {
+  class VicePresident extends Manager {
 
   }
   ```
@@ -26,14 +26,14 @@
   employee = new Manager('Dwi');
   console.info(employee);
 
-  employee = new VicePrecident('Sandy');
+  employee = new VicePresident('Sandy');
   console.info(employee);
   ```
 
 # Method Polymorphism
 * Saat kita membuat function / method dengan parameter, kita juga bisa mengirim data polymorphism pada parameter tersebut.
-* Misal kita membuat sebuah function dengan parameter class Employee, kita bisa mengirim object dalam bentuk Employee, Manager ataupun VicePrecident.
-* Hal ini karena Manager dan VicePrecident merupakan turunan dari Employee, sehingga kita bisa mengirim data seluruh turunan dari Employee.
+* Misal kita membuat sebuah function dengan parameter class Employee, kita bisa mengirim object dalam bentuk Employee, Manager ataupun VicePresident.
+* Hal ini karena Manager dan VicePresident merupakan turunan dari Employee, sehingga kita bisa mengirim data seluruh turunan dari Employee.
 * Kode: Method Polymorphism
   ```TSX
   function sayHello(employee: Employee): void {
@@ -42,5 +42,5 @@
 
   sayHello(new Employee('Budi'));
   sayHello(new Manager('Dwi'));
-  sayHello(new VicePrecident('Sandy'));
+  sayHello(new VicePresident('Sandy'));
   ```

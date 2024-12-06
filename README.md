@@ -91,7 +91,7 @@ classDiagram
 * [https://www.npmjs.com/package/typescript](https://www.npmjs.com/package/typescript)
 
 ## Setup TypeScript Project
-* ``` npx tsc --init ``
+* ``` npx tsc --init ```
 * Semua konfigurasi akan dibuat di file tsconfig.json
 * Ubah ``` "module" ``` dari ``` "commonjs" ``` menjadi ``` "ES6" ```.
 

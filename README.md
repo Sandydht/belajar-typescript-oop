@@ -96,4 +96,4 @@ classDiagram
 * Ubah ``` "module" ``` dari ``` "commonjs" ``` menjadi ``` "ES6" ```.
 
 ## Setup TypeScript untuk Jest
-* [https://jestjs.io/getting-started#using-typescript](https://jestjs.io/getting-started#using-typescript)
+* [https://jestjs.io/docs/getting-started#using-typescript](https://jestjs.io/docs/getting-started#using-typescript)
